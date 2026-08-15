@@ -1,10 +1,12 @@
 #include <iostream>
+using namespace std;
+
 
 void printWelcomeMessage() {
-  std::cout << "      Welcome to Git !       " << std::endl;
+  cout << "      Welcome to Git !       " << std::endl;
 }
 
-void greetUser() { std::cout << "Hello, Developer!" << std::endl; }
+void greetUser() { cout << "Hello, Developer!" << std::endl; }
 
 int addNumbers(int a, int b) { return a + b; }
 
@@ -16,9 +18,9 @@ int main() {
   int num2 = 10;
   int result = addNumbers(num1, num2);
 
-  std::cout << "The sum of " << num1 << " and " << num2 << " is: " << result
-            << std::endl;
-  std::cout << "Program finished successfully." << std::endl;
+  cout << "The sum of " << num1 << " and " << num2 << " is: " << result
+       << endl;
+  cout << "Program finished successfully." << endl;
 
   return 0;
 }

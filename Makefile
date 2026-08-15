@@ -16,8 +16,6 @@ run: $(TARGET)
 	./$(TARGET)
 
 clean:
-	rm -f $(OBJS) $(TARGET)
-
-
+	rm -f $(TARGET) $(OBJS)
 
 .PHONY: clean
