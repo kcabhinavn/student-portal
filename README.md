@@ -1,5 +1,5 @@
 # student-portal
-Software Systems Development Assignment 1 template portal
+Sample project to demonstrate git actions and commands using template codebase.
 
 
 ## Getting Started
@@ -25,3 +25,9 @@ brew install make
 ```bash
 make run
 ```
+
+4. To cleanup the project directory
+```bash
+make clean
+```
+
