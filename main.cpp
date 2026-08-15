@@ -29,15 +29,21 @@ int main() {
 
   int num1 = 5;
   int num2 = 10;
-  cout<<"Calculator Operations:"<<endl;
-  cout<<"1. Addition"<<endl;
-  cout<<"2. Subtraction"<<endl;
-  cout<<"3. Multiplication"<<endl;
-  cout<<"4. Division"<<endl;
+  while(true) {
+    cout<<"Calculator Operations:"<<endl;
+    cout<<"0. Exit"<<endl;
+    cout<<"1. Addition"<<endl;
+    cout<<"2. Subtraction"<<endl;
+    cout<<"3. Multiplication"<<endl;
+    cout<<"4. Division"<<endl;
   int op;
   cin>>op;
+  if(op == 0) {
+    printGoodbyeMessage();
+    break;
+  }
   int result = calculator(num1, num2, op);
-  printGoodbyeMessage();
-
+  cout << "Result: " << result << endl;
+  }
   return 0;
 }
