@@ -31,3 +31,11 @@ make run
 make clean
 ```
 
+Project Structure
+---
+
+```
+student-portal
+├── Makefile
+├── README.md
+├── main.cpp
