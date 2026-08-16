@@ -41,3 +41,12 @@ int gcd(int a, int b) {
 
   return a;
 }
+
+int lcm(int a, int b) {
+  return (a / gcd(a, b)) * b;
+}
+
+
+int absolute(int number) {
+  return number < 0 ? -number : number;
+}
