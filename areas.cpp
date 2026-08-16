@@ -26,3 +26,7 @@ int parallelogram(int base, int height) {
 int rhombus(int base, int height) {
   return base * height;
 }
+
+int pentagon(int base) {
+  return base * 5;
+}
