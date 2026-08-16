@@ -11,3 +11,14 @@ int cosine(int angle) {
 int tangent(int angle) {
   return tan(angle);
 }
+int cosecant(int angle) {
+  return 1 / sin(angle);
+}
+
+int cotangent(int angle) {
+  return 1 / tan(angle);
+}
+
+int secant(int angle) {
+  return 1 / cos(angle);
+}
