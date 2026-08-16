@@ -22,3 +22,7 @@ int trapezoid(int base, int height) {
 int parallelogram(int base, int height) {
   return base + height;
 }
+
+int rhombus(int base, int height) {
+  return base * height;
+}
