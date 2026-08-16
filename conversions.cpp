@@ -11,3 +11,24 @@ double fahrenheitToCelsius(double fahrenheit) {
 double celsiusToKelvin(double celsius) {
     return celsius + 273.15;
 }
+
+double kelvinToCelsius(double kelvin) {
+    return kelvin - 273.15;
+}
+
+double kilometersToMiles(double km) {
+    return km * 0.621371;
+}
+
+double milesToKilometers(double miles) {
+    return miles * 1.609344;
+}
+
+double metersToFeet(double meters) {
+    return meters * 3.28084;
+}
+
+double feetToMeters(double feet) {
+    return feet * 0.3048;
+}
+
