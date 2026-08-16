@@ -6,7 +6,7 @@
 using namespace std;
 
 void printWelcomeMessage() {
-  cout << "      Welcome to Git !       " << endl;
+  cout << "      Welcome to github !       " << endl;
 }
 
 void greetUser() {
@@ -286,6 +286,7 @@ int main() {
     cout << "2. Areas" << endl;
     cout<<"3. Trigonometry"<<endl;
     cout << "4. Exit" << endl;
+    cout << "\nChoose an option" << endl;
     cin >> num1;
     switch (num1) {
     case 1:
