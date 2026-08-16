@@ -1,5 +1,19 @@
-#include<iostream>
 
-int areaOfCircle(int radius) {
-    return 3.14 * radius * radius;
+int square(int side) {
+  return side * side;
 }
+
+int rectangle(int length, int width) {
+  return length * width;
+}
+
+int triangle(int base, int height) {
+  return 0.5 * base * height;
+}
+
+int circle(int radius) {
+  return 3.14159 * radius * radius;
+}
+
+
+
