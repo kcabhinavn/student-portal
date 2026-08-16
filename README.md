@@ -1,4 +1,4 @@
-# student-portal
+# student-portal-main-feature
 Sample project to demonstrate git actions and commands using template codebase.
 
 
