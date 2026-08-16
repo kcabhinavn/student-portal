@@ -22,3 +22,14 @@ int cotangent(int angle) {
 int secant(int angle) {
   return 1 / cos(angle);
 }
+
+int sin_inverse(int angle) {
+  return asin(angle);
+}
+int cos_inverse(int angle) {
+  return acos(angle);
+}
+int tan_inverse(int angle) {
+  return atan(angle);
+}
+
