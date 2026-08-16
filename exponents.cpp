@@ -1,6 +1,6 @@
 #include <math.h>
 
-int square(int side) { return side * side; }
+int squareex(int side) { return side * side; }
 
 int cube(int side) { return side * side * side; }
 
