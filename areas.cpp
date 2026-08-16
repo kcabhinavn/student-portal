@@ -1,19 +1,24 @@
-#include<iostream>
 
-
-using namespace std;
-
-int area(int length, int width) {
-    return length * width;
-}
-int area(int side) {
-    return side * side;
+int square(int side) {
+  return side * side;
 }
 
-int area(int base, int height) {
-    return 0.5 * base * height;
+int rectangle(int length, int width) {
+  return length * width;
 }
 
-int areaOfCircle(int radius) {
-    return 3.14 * radius * radius;
+int triangle(int base, int height) {
+  return 0.5 * base * height;
+}
+
+int circle(int radius) {
+  return 3.14159 * radius * radius;
+}
+
+int trapezoid(int base, int height) {
+  return (base + height) / 2;
+}
+
+int parallelogram(int base, int height) {
+  return base + height;
 }
