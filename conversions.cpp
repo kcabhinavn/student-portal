@@ -32,3 +32,18 @@ double feetToMeters(double feet) {
     return feet * 0.3048;
 }
 
+double kilogramsToPounds(double kg) {
+    return kg * 2.20462;
+}
+
+double poundsToKilograms(double pounds) {
+    return pounds * 0.453592;
+}
+
+double gramsToKilograms(double grams) {
+    return grams / 1000.0;
+}
+
+double kilogramsToGrams(double kg) {
+    return kg * 1000.0;
+}
