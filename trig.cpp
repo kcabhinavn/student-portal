@@ -33,3 +33,14 @@ int tan_inverse(int angle) {
   return atan(angle);
 }
 
+int cosecant_inverse(int angle) {
+  return asin(1 / angle);
+}
+
+int cotangent_inverse(int angle) {
+  return atan(1 / angle);
+}
+
+int secant_inverse(int angle) {
+  return acos(1 / angle);
+}
