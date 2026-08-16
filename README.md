@@ -40,3 +40,5 @@ student-portal
 ├── README.md
 ├── main.cpp
 ├── areas.cpp
+├── trig.cpp
+├── exponents.cpp
