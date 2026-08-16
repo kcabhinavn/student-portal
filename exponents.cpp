@@ -21,3 +21,23 @@ int natural_logarithm(int number) { return log10(number); }
 int powerof10(int n){
     return power(n, 10);
 }
+
+int factorial(int number) {
+  int result = 1;
+
+  for (int i = 2; i <= number; i++) {
+    result *= i;
+  }
+
+  return result;
+}
+
+int gcd(int a, int b) {
+  while (b != 0) {
+    int temp = b;
+    b = a % b;
+    a = temp;
+  }
+
+  return a;
+}
