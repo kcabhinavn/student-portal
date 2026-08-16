@@ -15,3 +15,9 @@ int power(int base, int exponent) {
 int squareroot(int number) { return sqrt(number); }
 
 int logarithm(int number) { return log(number); }
+
+int natural_logarithm(int number) { return log10(number); }
+
+int powerof10(int n){
+    return power(n, 10);
+}
