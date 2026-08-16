@@ -1,4 +1,5 @@
 #include "areas.cpp"
+#include "trig.cpp"
 #include "exponents.cpp"
 #include <iostream>
 
@@ -65,6 +66,51 @@ int areas() {
   }
 
   return 0;
+}
+
+int trigonometry() {
+  int angle, sine, cosine, tangent;
+  cout << "1. Sine" << endl;
+  cout << "2. Cosine" << endl;
+  cout << "3. Tangent" << endl;
+  cout << "4. Cosecant" << endl;
+  cout << "5. Cotangent" << endl;
+  cout << "6. Secant" << endl;
+  cout << "7. Sine Inverse" << endl;
+  cout << "8. Cosine Inverse" << endl;
+  cout << "9. Tangent Inverse" << endl;
+  cout << "10. Cosecant Inverse" << endl;
+  cout << "11. Cotangent Inverse" << endl;
+  cout << "12. Secant Inverse" << endl;
+  cout << "13. Sine Hyperbolic" << endl;
+  cout << "14. Cosine Hyperbolic" << endl;
+  cout << "15. Tangent Hyperbolic" << endl;
+  cout << "16. Cosecant Hyperbolic" << endl;
+  cout << "17. Cotangent Hyperbolic" << endl;
+  cout << "18. Secant Hyperbolic" << endl;
+  int option;
+  cin >> option;
+  switch (option) {
+  case 1:
+    cout << "Enter angle: ";
+    cin >> angle;
+    sine = sine(angle);
+    cout << "Sine of " << angle << " is " << sine << endl;
+    break;
+  case 2:
+    cout << "Enter angle: ";
+    cin >> angle;
+    cosine = cosine(angle);
+    cout << "Cosine of " << angle << " is " << cosine << endl;
+    break;
+  case 3:
+    cout << "Enter angle: ";
+    cin >> angle;
+    tangent = tangent(angle);
+    cout << "Tangent of " << angle << " is " << tangent << endl;
+    break;
+  // Add cases for other trigonometric functions
+  }
 }
 
 int calculator() {
@@ -238,12 +284,10 @@ int main() {
     cout << "=====================" << endl;
     cout << "1. Calculator" << endl;
     cout << "2. Areas" << endl;
-    cout << "3. Math Operations" << endl;
+    cout<<"3. Trigonometry"<<endl;
     cout << "4. Exit" << endl;
-
-    cin >> choice;
-
-    switch (choice) {
+    cin >> num1;
+    switch (num1) {
     case 1:
       cout << "\nCalculator" << endl;
       cout << "Result: " << calculator() << endl;
@@ -254,10 +298,6 @@ int main() {
       break;
 
     case 3:
-      mathOperations();
-      break;
-
-    case 4:
       printGoodbyeMessage();
       return 0;
 
