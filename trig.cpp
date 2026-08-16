@@ -44,3 +44,15 @@ int cotangent_inverse(int angle) {
 int secant_inverse(int angle) {
   return acos(1 / angle);
 }
+
+int sinh(int angle) {
+  return sinh(angle);
+}
+
+int cosh(int angle) {
+  return cosh(angle);
+}
+
+int tanh(int angle) {
+  return tanh(angle);
+}
