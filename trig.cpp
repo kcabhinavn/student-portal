@@ -56,3 +56,15 @@ int cosh(int angle) {
 int tanh(int angle) {
   return tanh(angle);
 }
+
+int cosech(int angle) {
+  return 1 / sinh(angle);
+}
+
+int cotanh(int angle) {
+  return 1 / tanh(angle);
+}
+
+int sech(int angle) {
+  return 1 / cosh(angle);
+}
